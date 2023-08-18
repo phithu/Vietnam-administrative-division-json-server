@@ -1,5 +1,5 @@
 {
-  "name": "Vietnam-administrative-division-json-server",
+  "name": "vn-administrative-division-json-server",
   "version": "1.0.0",
   "description": "administrative division of Vietnam",
   "keywords": [
@@ -7,6 +7,9 @@
   ],
   "author": "qtv10291",
   "license": "ISC",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
   "dependencies": {
     "json-server": "^0.17.3"
   }
